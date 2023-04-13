@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@next-ct-test/next-lib": ["libs/next-lib/src/index.ts"],
+      "@next-ct-test/next-lib/server": ["libs/next-lib/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
